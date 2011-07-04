@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="fr">
+<head>
+<BASE HREF="http://www.culture.gouv.fr/index-erreur.html">
+<title>Minist&egrave;re de la culture et de la communication- Page inexistante</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="DC.author.corporateName" content="France. Ministère de la culture et de la communication">
+<meta name="DC.author.corporateName.address" href="mailto:webmaster@culture.fr">
+<meta name="DC.rights" content="France. Ministère de la culture et de la communication - [2002].">
+<link href="lib/css/er_style.css" rel="stylesheet" type="text/css">
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() {
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() {
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) {
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() {
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+var vs = new Array ()
+vs[0] = new Array ("http://www.culture.gouv.fr/", "raphael.loison@culture.fr,martine.tayeb@culture.fr", "http://www.culture.fr/icones/logo0.gif")
+vs[1] = new Array ("http://www.culture.fr/",  "raphael.loison@culture.fr,martine.tayeb@culture.fr,mamadou.dia@culture.fr", "http://www.culture.fr/icones/logo0.gif")
+vs[2] = new Array ("http://dglf.culture.fr/", "dglf@culture.fr", "http://www.culture.fr/culture/dglf/projet/images/dglf.jpg")
+vs[3] = new Array ("http://www.sfm.culture.fr/",  "LMGuillo@aol.com", "http://www.culture.fr/sfm/sfimages/soccen24.gif")
+vs[4] = new Array ("http://www.vpah.culture.fr/",  "vpah.dp@culture.fr", "http://www.vpah.culture.fr/vpah/accueil/log-vill.gif")
+var pageReferrer = document.referrer
+var errLink = location.href
+var res = new Array (4)
+res[0] = errLink
+res[1] = ""
+res[2] = ""
+res[3] = ""
+function concatwns (str) { // concate while non slash
+    var i = 0 ; var r = ""
+    while (str.charAt(i) != "/" & i < str.length) {
+      r += str.charAt(i) ;
+      i++
+    }
+    return r  
+}
+function parser (str) {
+    var r = concatwns (str)
+    var i = r.length
+    while (str.charAt(i) == "/") { r += "/" ; i++ }
+    r += concatwns (str.substring(r.length))
+    if (str.charAt(r.length) == "/") r += "/"     
+    return r
+}
+res[1] += parser (res[0])
+res[2] += concatwns (res[0].substring(res[1].length))
+function homePage () { 
+  if (res[1] == "http://mistral.culture.fr/" && res[2] == "louvre") return res[1] + res[2]
+  else return res[1] 
+}
+function mailto () {
+  for (var i = 0 ; i < vs.length ; i++) {
+    if (vs[i][0] == res[1]) return vs [i][1]
+  }
+  return "webmaster@culture.fr"
+}
+function icone () {
+  for (var i = 0 ; i < vs.length ; i++) {
+    if (vs[i][0] == res[1]) return vs[i][2]
+  }
+  return "http://www.culture.fr/icones/logo0.gif"
+}
+function MM_reloadPage(init) {
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+</head>
+<body bgcolor="#31001C">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" summary="Tableau de mise en page">
+  <tr> 
+    <td width="100%" height="100%" align="center"><table width="750" border="0" cellpadding="0" cellspacing="0" background="images/404/er_fi.gif" summary="Tableau de mise en page">
+        <tr> 
+          <td width="46" height="61" valign="top"><img src="images/404/er_logo.gif" alt="Logo du ministère de la culture et de la communication" width="46" height="61" border="0"></td>
+          <td colspan="2" valign="top"><img src="images/404/er_v13b.gif" alt="" width="704" height="61"></td>
+        </tr>
+        <tr> 
+          <td height="61" colspan="2" valign="top" bgcolor="#31001C"><img src="images/404/er_l1.gif" alt="Erreur 404" width="329" height="61" border="0"></td>
+          <td width="421" valign="top" bgcolor="#31001C"><img src="images/404/er_me.gif" alt="La ressource demandée n'existe pas sur ce serveur" width="421" height="61" border="0"></td>
+        </tr>
+        <tr> 
+          <td height="144" colspan="3" valign="top"><img src="images/404/er_v13.gif" alt="" width="750" height="144" border="0"></td>
+        </tr>
+        <tr background="images/404/er_sf.gif">
+          <td height="89" colspan="3" bgcolor="#31001C"> 
+		<table border="0" align="right" cellpadding="0" cellspacing="0" summary="Tableau de mise en page">
+              <tr> 
+                <td width="130" colspan="2" valign="top"><img src="images/404/er_b1.gif" alt="" name="i11" width="130" height="1" id="i11"></td>
+                <td width="8" valign="top"><img src="images/404/er_s.gif" alt="" width="8" height="1"></td>
+                <td width="130" colspan="2" valign="top"><img src="images/404/er_b1.gif" alt="" name="i21" width="130" height="1" id="i21"></td>
+                <td width="8" valign="top"><img src="images/404/er_s.gif" alt="" width="8" height="1"></td>
+                <td width="130" colspan="2" valign="top"><img src="images/404/er_b1.gif" alt="" name="i31" width="130" height="1" id="i31"></td>
+              </tr>
+              <tr> 
+                <td width="1" height="32" valign="top"><img src="images/404/er_b1.gif" alt="" name="i12" width="1" height="30" id="i12"></td>
+                <td width="129" valign="bottom">
+<script type="text/JavaScript">
+<!--
+if ( pageReferrer.length == 0 ) {
+document.write ('<a href="mailto:webmaster@culture.fr?subject=Lien inexistant" class="sa" onMouseOver="MM_swapImage(\'i11\',\'\',\'images\/404\/er_sb.gif\',\'i12\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Pour signaler<br>&nbsp;un lien invalide</a>')
+} else {
+document.write ('<a href="mailto:' + mailto() + '?subject=Lien inexistant&body=Dans la page : ' + pageReferrer)
+document.write (' le lien : ' + errLink +' est invalide." class="sa" onMouseOver="MM_swapImage(\'i11\',\'\',\'images\/404\/er_sb.gif\',\'i12\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Pour signaler<br>&nbsp;un lien invalide</a>')
+}
+// -->
+</script>
+                  <noscript><a href="mailto:webmaster@culture.fr?subject=Lien inexistant" class="sa" onMouseOver="MM_swapImage('i11','','images/404/er_sb.gif','i12','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Pour 
+                  signaler<br>
+                  &nbsp;un lien invalide</a></noscript></td>
+                <td>&nbsp;</td>
+                <td width="1" valign="top"><img src="images/404/er_b1.gif" alt="" name="i22" width="1" height="30" id="i22"></td>
+                <td width="129" valign="bottom">
+<script type="text/JavaScript">
+<!--
+if ( pageReferrer.length == 0 ) {
+document.write ('<a href="mailto:webmaster@culture.fr?subject=Broken Link" class="sa" onMouseOver="MM_swapImage(\'i21\',\'\',\'images\/404\/er_sb.gif\',\'i22\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;To report<br>&nbsp;a broken link</a>')
+} else {
+document.write ('<a href="mailto:' + mailto() + '?subject=Broken link&body=In the page : ' + pageReferrer)
+document.write (' the link : ' + errLink +' is erroneous." class="sa" onMouseOver="MM_swapImage(\'i21\',\'\',\'images\/404\/er_sb.gif\',\'i22\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;To report<br>&nbsp;a broken link</a>')
+}
+// -->
+</script>
+                  <noscript><a href="mailto:webmaster@culture.fr?subject=Broken Link" class="sb" onMouseOver="MM_swapImage('i21','','images/404/er_sb.gif','i22','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;To 
+                  report<br>
+                  &nbsp;a broken link</a></noscript></td>
+                <td>&nbsp;</td>
+                <td width="1" valign="top"><img src="images/404/er_b1.gif" alt="" name="i32" width="1" height="30" id="i32"></td>
+                <td width="129" valign="bottom">
+<script type="text/JavaScript">
+<!--
+if ( pageReferrer.length == 0 ) {
+document.write ('<a href="mailto:webmaster@culture.fr?subject=Enlace no valido" class="sa" onMouseOver="MM_swapImage(\'i31\',\'\',\'images\/404\/er_sb.gif\',\'i32\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Para si&ntilde;alar<br>&nbsp;un enlace roto</a>')
+} else {
+document.write ('<a href="mailto:' + mailto() + '?subject=Enlace no valido&body=En la p&aacute;gina : ' + pageReferrer)
+document.write (' el enlace : ' + errLink +' no es valido." class="sa" onMouseOver="MM_swapImage(\'i31\',\'\',\'images\/404\/er_sb.gif\',\'i32\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Para si&ntilde;alar<br>&nbsp;un enlace roto</a>')
+}
+// -->
+</script>
+                  <noscript><a href="mailto:webmaster@culture.fr?subject=Enlace no valido" class="sb" onMouseOver="MM_swapImage('i31','','images/404/er_sb.gif','i32','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Para 
+                  si&ntilde;alar<br>
+                  &nbsp;un enlace roto</a></noscript></td>
+              </tr>
+              <tr> 
+                <td height="8" valign="top"><img src="images/404/er_s.gif" alt="" width="1" height="8"></td>
+                <td height="8"></td>
+                <td height="8"></td>
+                <td height="8"></td>
+                <td height="8"></td>
+                <td height="8"></td>
+                <td height="8"></td>
+                <td height="8"></td>
+              </tr>
+              <tr> 
+                <td width="130" colspan="2" valign="top"><img src="images/404/er_b2.gif" alt="" name="i41" width="130" height="1" id="i41"></td>
+                <td width="8" valign="top"><img src="images/404/er_s.gif" alt="" width="8" height="1"></td>
+                <td width="130" colspan="2" valign="top"><img src="images/404/er_b2.gif" alt="" name="i51" width="130" height="1" id="i51"></td>
+                <td width="8" valign="top"><img src="images/404/er_s.gif" alt="" width="8" height="1"></td>
+                <td width="130" colspan="2" valign="top"><img src="images/404/er_b2.gif" alt="" name="i61" width="130" height="1" id="i61"></td>
+              </tr>
+              <tr> 
+                <td width="1" height="32" valign="top"><img src="images/404/er_b2.gif" alt="" name="i42" width="1" height="30" id="i42"></td>
+                <td width="129" valign="bottom"><a href="javascript:history.go(-1)" class="sc" onMouseOver="MM_swapImage('i41','','images/404/er_sb.gif','i42','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Pour 
+                  retourner &agrave; la<br>
+                  &nbsp;ressource&nbsp;pr&eacute;c&eacute;dente</a></td>
+                <td>&nbsp;</td>
+                <td width="1" valign="top"><img src="images/404/er_b2.gif" alt="" name="i52" width="1" height="30" id="i52"></td>
+                <td width="129" valign="bottom"><a href="javascript:history.go(-1)" class="sd" onMouseOver="MM_swapImage('i51','','images/404/er_sb.gif','i52','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Return 
+                  to previous<br>
+                  &nbsp;resource </a></td>
+                <td>&nbsp;</td>
+                <td width="1" valign="top"><img src="images/404/er_b2.gif" alt="" name="i62" width="1" height="30" id="i62"></td>
+                <td width="129" valign="bottom"><a href="javascript:history.go(-1)" class="sd" onMouseOver="MM_swapImage('i61','','images/404/er_sb.gif','i62','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Volver 
+                  al recurso<br>
+                  &nbsp;precediente</a></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td height="20" colspan="3" valign="top"><img src="images/404/er_v13.gif" alt="" width="750" height="20" border="0"></td>
+        </tr>
+        <tr bgcolor="#31001C" background="images/404/er_sf.gif"> 
+          <td height="35" colspan="3"> <table border="0" cellspacing="0" cellpadding="0" summary="Tableau de mise en page">
+              <tr> 
+                <td width="107" colspan="2" valign="top"><img src="images/404/er_b3.gif" alt="" name="i71" width="107" height="1" id="i71"></td>
+                <td width="8" valign="top"><img src="images/404/er_s.gif" alt="" width="8" height="1"></td>
+                <td width="107" colspan="2" valign="top"><img src="images/404/er_b3.gif" alt="" name="i81" width="107" height="1" id="i81"></td>
+                <td width="8" valign="top"><img src="images/404/er_s.gif" alt="" width="8" height="1"></td>
+                <td width="107" colspan="2" valign="top"><img src="images/404/er_b3.gif" alt="" name="i91" width="107" height="1" id="i91"></td>
+              </tr>
+              <tr> 
+                <td width="1" height="19" valign="top"><img src="images/404/er_b3.gif" alt="" name="i72" width="1" height="17" id="i72"></td>
+                <td width="106" valign="bottom">
+<script type="text/JavaScript">
+<!--
+document.write ('<a href="' + homePage() + '" class="se" onMouseOver="MM_swapImage(\'i71\',\'\',\'images\/404\/er_sb.gif\',\'i72\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Page d\'accueil<\/a>')
+// -->
+</script>
+                  <noscript><a href="/" class="se" onMouseOver="MM_swapImage('i71','','images/404/er_sb.gif','i72','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Page 
+                  d'accueil</a></noscript></td>
+                <td>&nbsp;</td>
+                <td width="1" valign="top"><img src="images/404/er_b3.gif" alt="" name="i82" width="1" height="17" id="i82"></td>
+                <td width="106" valign="bottom">
+<script type="text/JavaScript">
+<!--
+document.write ('<a href="' + homePage() + '" onMouseOver="MM_swapImage(\'i81\',\'\',\'images\/404\/er_sb.gif\',\'i82\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Home page<\/a>')
+// -->
+</script>
+                  <noscript><a href="/" onMouseOver="MM_swapImage('i81','','images/404/er_sb.gif','i82','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;Home 
+                  page</a></noscript></td>
+                <td>&nbsp;</td>
+                <td width="1" valign="top"><img src="images/404/er_b3.gif" alt="" name="i92" width="1" height="17" id="i92"></td>
+                <td width="106" valign="bottom">
+<script type="text/JavaScript">
+<!--
+document.write ('<a href="' + homePage() + '" onMouseOver="MM_swapImage(\'i91\',\'\',\'images\/404\/er_sb.gif\',\'i92\',\'\',\'images\/404\/er_sb.gif\',1)" onMouseOut="MM_swapImgRestore()">&nbsp;P&aacute;gina principal<\/a>')
+// -->
+</script>
+                  <noscript><a href="/" onMouseOver="MM_swapImage('i91','','images/404/er_sb.gif','i92','','images/404/er_sb.gif',1)" onMouseOut="MM_swapImgRestore()">&nbsp;P&aacute;gina 
+                  principal</a></noscript></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td height="4" colspan="3" valign="top"><img src="images/404/er_v13.gif" alt="" width="750" height="4" border="0"></td>
+        </tr>
+        <tr> 
+          <td background="images/404/er_sf.gif" bgcolor="#31001C"><img src="images/404/er_s.gif" alt="" width="46" height="1" border="0"></td>
+          <td background="images/404/er_sf.gif" bgcolor="#31001C"><img src="images/404/er_s.gif" alt="" width="283" height="1" border="0"></td>
+          <td background="images/404/er_sf.gif" bgcolor="#31001C"><img src="images/404/er_s.gif" alt="" width="421" height="1" border="0"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>
